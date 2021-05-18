@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF34F11026531909001564B4 /* MiContacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34F10F26531909001564B4 /* MiContacto.swift */; };
+		EF34F112265326A9001564B4 /* EditarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34F111265326A8001564B4 /* EditarViewController.swift */; };
 		EFA976DD264F01B600B415E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA976DC264F01B600B415E6 /* AppDelegate.swift */; };
 		EFA976DF264F01B600B415E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA976DE264F01B600B415E6 /* SceneDelegate.swift */; };
 		EFA976E1264F01B700B415E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA976E0264F01B700B415E6 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF34F10F26531909001564B4 /* MiContacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiContacto.swift; sourceTree = "<group>"; };
+		EF34F111265326A8001564B4 /* EditarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarViewController.swift; sourceTree = "<group>"; };
 		EFA976D9264F01B500B415E6 /* ContactosCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactosCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA976DC264F01B600B415E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFA976DE264F01B600B415E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				EFA976EA264F02E900B415E6 /* Info.plist */,
 				EFA9770C264F2CCC00B415E6 /* ContactoTableViewCell.swift */,
 				EFA9770D264F2CCC00B415E6 /* ContactoTableViewCell.xib */,
+				EF34F10F26531909001564B4 /* MiContacto.swift */,
+				EF34F111265326A8001564B4 /* EditarViewController.swift */,
 			);
 			path = ContactosCoreData;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 			files = (
 				EFA9770E264F2CCC00B415E6 /* ContactoTableViewCell.swift in Sources */,
 				EFA976E1264F01B700B415E6 /* ViewController.swift in Sources */,
+				EF34F11026531909001564B4 /* MiContacto.swift in Sources */,
 				EFA976DD264F01B600B415E6 /* AppDelegate.swift in Sources */,
 				EFA976DF264F01B600B415E6 /* SceneDelegate.swift in Sources */,
+				EF34F112265326A9001564B4 /* EditarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
